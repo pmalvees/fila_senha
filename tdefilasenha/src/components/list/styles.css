@@ -1,0 +1,26 @@
+.listStyles p{
+    width: 84%;
+    margin: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background: #F7C40F;
+    padding: 7px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.listStyles span {
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: roboto;
+    padding-left: 3px;
+    
+}
+
+.listStyles svg {
+    border-right:2px solid #D44F0D;
+    height: 100%;
+    margin: 0 3px 0 0px;
+    padding:0 3px 0 0px;
+}

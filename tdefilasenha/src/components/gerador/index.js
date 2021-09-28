@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import List from '../list/index';
-
+import './styles.css';
 
 const Gerador = ({ nome, prefixo, mudaUltimaSenha }) => {
 
@@ -21,7 +21,7 @@ const Gerador = ({ nome, prefixo, mudaUltimaSenha }) => {
     }
 
     return(
-        <div>
+        <div className='geradorStyle'>
             <button onClick={() =>geradorDeSenha(prefixo)}
             >Gerar {nome}</button>
             <List prefixo={prefixo} lista={listaSenha}/>
