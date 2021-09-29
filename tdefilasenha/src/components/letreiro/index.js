@@ -1,12 +1,8 @@
-import React from 'react';
-
+import React from "react";
+import "./styles.css";
 
 const Letreiro = ({ letreiroAtual }) => {
-    return(
-        <div>{letreiroAtual}</div>
-    );
-
-}
-
+  return <div className="letreiroContainer">{letreiroAtual}</div>;
+};
 
 export default Letreiro;
